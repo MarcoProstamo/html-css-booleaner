@@ -7,10 +7,18 @@ a {
     text-decoration: none;
 }
 
+figure {
+    margin: 0;
+}
+
 /* Utils */
 
 .grey-color {
     color: #959595;
+}
+
+.highlighted {
+    background-color: yellow;
 }
 
 /* Header */
@@ -50,4 +58,9 @@ a {
 .article-date {
     font-size: smaller;
     margin-top: 5px;
+}
+
+.main-list {
+    padding: 0;
+    margin-left: 15px;
 }
