@@ -7,10 +7,6 @@ a {
     text-decoration: none;
 }
 
-figure {
-    margin: 0;
-}
-
 /* Utils */
 
 .grey-color {
@@ -42,6 +38,10 @@ figure {
     margin: 8px;
 }
 
+.main-images {
+    margin-left: 0;
+}
+
 .main-title {
     font-size: xx-large;
     margin-bottom: 0;
@@ -63,4 +63,38 @@ figure {
 .main-list {
     padding: 0;
     margin-left: 15px;
+}
+
+/* Footer */
+
+.main-footer {
+    margin: 8px;
+    margin-top: 35px;
+}
+
+.footer-title {
+    font-weight: bold;
+}
+
+.first-footer-image {
+    background-image: url('../img/monitor.jpg');
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
+    padding-top: 9px;
+    padding-left: 9px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.second-footer-image {
+    background-image: url('../img/graph.jpg');
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
+    padding-top: 9px;
+    padding-left: 9px;
+    color: white;
+    font-weight: bold;
 }
