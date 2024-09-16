@@ -1,0 +1,19 @@
+/* Reset */
+body {
+    margin: 0;
+}
+
+/* Header */
+
+.main-header {
+    background-image: url('../img/pattern.png');
+    background-repeat: repeat-x;
+    background-color: hsl(211.4, 94.5%, 64.3%);
+    height: 150px;
+}
+
+.logo {
+    height: 40%;
+    margin-top: 80px;
+    margin-left: 10px;
+}
